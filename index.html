@@ -9,39 +9,40 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body>
-    <h1 class="tittle"> POKEDEX</h1>
-    <button type="button" class="btn btn-light" onclick="consultarPokemones()">BATALLA</button>
+    <h1 class="tittle" style="color: white; font-size: 50px; text-decoration:underline;"> POKEDEX</h1>
+    <button style="margin-left: 2%;" type="button" class="btn btn-light" onclick="consultarPokemones()">NUEVA BATALLA</button>
 
 
     <div class="pokemon-list" id="listarpokemon" style="width: 35rem">
 
         <div class="pokemon" id="pok-1">
-            <p class="card-text"></p>
+            <p class="card-text" style="text-transform: uppercase"></p>
             <img src="" class="card-img-top">
             
         </div>
-        <div class="vs">VS</div>
+        <div class="vs" style="color: white; font-size: 50px; font-weight: bold;" >VS</div>
 
         <div class="pokemon" id="pok-2">
-            <p class="card-text"></p>
+            <p class="card-text" style="text-transform: uppercase"></p>
             <img src="" class="card-img-top">
             
         </div>
+
+        <br><br>
+        
+        
+    </div>
+    <div class="names" style="text-align: left; color: white">
+        <ol>
+            <li>Calle Xavier</li>
+            <li>Chinacalle Karla</li>
+            <li>Llumiquinga Jefferson</li>
+            <li>Proaño Andres</li>
+            <li>Salgado Luis</li>
+        </ol>
     </div>
 
     
-
-    <div class="card bg-dark text-white">
-        <div class="card-img-overlay">
-            <ol>
-                <li>Calle Xavier</li>
-                <li>Chinacalle Karla</li>
-                <li>Llumiquinga Jefferson</li>
-                <li>Proaño Andres</li>
-                <li>Salgado Luis</li>
-            </ol>
-        </div>
-      </div>
    
 
     <script>

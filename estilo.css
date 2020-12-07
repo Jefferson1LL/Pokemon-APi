@@ -23,7 +23,7 @@ body{
     padding: 10px;
     background: rgb(238, 219, 238, 0.6);
     text-align: center;
-   
+   border-radius: 60px;
 }
 .vs{
     text-align: center;
@@ -36,5 +36,8 @@ body{
 .card-text{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
+}
+.names{
+    font-size: 25px;
 }
   
